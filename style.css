@@ -1,0 +1,491 @@
+*{
+  margin:0%;
+  text-align: center;
+ 
+}
+body{
+  background-color: rgb(243, 237, 237);
+  color: aliceblue;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+}
+a{
+  text-decoration: none;
+}
+.head-container{
+  height:fit-content;
+  padding-bottom:20px ;
+  background-color: rgb(0, 132, 255);
+}
+nav{
+  background-color: rgba(0, 0, 0, 0.916);
+  top:0%;
+  width: 99%;
+  position:fixed ;
+  transition: 3s;
+  z-index: 999;
+  border-radius: 100px;
+  margin:10px;
+
+}
+
+span{
+  margin:20px;
+  font-size: 100%;
+}
+.nav-left{
+
+  float:left;
+  width: 130px;
+  text-align: center;
+  /* margin-left: 50px; */ 
+}
+.nav-contant:hover{
+  cursor: pointer;
+  color: rgb(220, 228, 241);
+}
+.nav-right{
+  float:right;
+  padding:30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 550px) {
+  
+  .nav-right  {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.about-container {
+  padding:10%;
+  padding-bottom: 0;
+  padding-top:150px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.about-container img{
+ width: 300px;
+ 
+}
+.name{
+  font-size: 5em;
+  font-weight: bold;
+  /* float:left; */
+}
+/* Scroller styling */
+/* .scroller {
+  height: 1.2em;
+  line-height: 1.7em;
+  position: relative;
+  overflow: hidden;
+  width: 12em;
+}
+.scroller > span {
+  position: absolute;
+  top: 0;
+  animation: slide 5s infinite;
+  font-weight: bold;
+  
+}
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
+  }
+} */
+
+.intro{
+ text-align: center;
+  margin-left: 10%;
+  margin-right:10%;
+  font-size:2em;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.middle-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding:2%;
+  background-color: rgb(6, 2, 2);
+  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* height: 1000px; */
+  /* margin-top: 5%; */
+
+}
+.projects{
+ width: 100%;
+ background-color: rgb(6, 0, 10);
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+.pro-title{
+  margin-top: 1%;
+}
+
+.pr{
+  padding: 3%;
+ 
+}
+
+
+
+
+/* .feature-box{
+  width:100px;
+  height: 100px;
+  background-color: darkblue;
+  margin-left:10px;
+  margin-top:10px;
+} */
+.feature-box{
+  /* background-color: blue; */
+  /* border: 10px solid rgb(233, 10, 10); */
+  
+  height: 100px;
+  width: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+  
+  clip-path: 
+  polygon(
+  0% 5%,     /* top left */
+  5% 0%,     /* top left */
+  95% 0%,    /* top right */
+  100% 5%,   /* top right */
+  100% 95%,  /* bottom right */
+  95% 100%,  /* bottom right */
+  5% 100%,   /* bottom left */
+  0 95%      /* bottom left */
+);
+
+
+  
+ /* position:sticky; */
+ /* display:inline block; */
+ /* float :left; */
+
+}
+
+
+
+.thumbnaill { 
+cursor: pointer;
+ 
+} 
+.thumbnail img{
+  display: flex;
+  width: 100%;
+  height:100%;
+            cursor: pointer;
+            color: white;
+            text-align: center;
+            transition-duration: 5s;
+           
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            transition: all 1s ease;
+
+  
+}
+
+/*change the number below to scale to the appropriate size*/
+/* .thumbnail:hover { 
+transform: scale(1.1); 
+transition-duration: 1s;
+  transition-property: margin-right, color; 
+} */
+.thumbnaill:hover { 
+transform: scale(1.1); 
+transition-duration: 1s;
+/* transition-property: margin-right, color; */
+}
+
+/* ul{
+  list-style-type:none;
+} */
+
+
+/* parent should be flexed for its child to adapt inside */
+.parent{
+  
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgb(0, 156, 246);
+  padding-top: 5%;
+  padding-bottom: 5%;
+ 
+ 
+
+
+}
+/* for the child we will provide width & height for each boxes */
+.child{
+  /* width:calc(33% - 10px); */
+ height: 300px;
+  /* background-color: rgba(0, 0, 0, 0.426); */
+  margin-left:30px;
+  margin-right: 30px;
+  margin-top:10px;
+  margin-bottom:20px;
+  padding: 1%;
+  padding-bottom: 100px;
+ 
+}
+.child:hover h3{
+  background-color: rgb(0, 64, 255);
+  color:#fff;
+transition-duration: 1s;
+}
+.child h3{
+  /* background-color: rgb(14, 100, 221); */
+  background: tranparent;
+  border:solid #fff;
+  border-radius: 30px;
+  padding:10px;
+  margin: 5%;
+  color:#fff;
+  transition: 1s;
+  cursor: pointer;
+ 
+}
+.child h3:hover{
+   background-color: rgb(0, 64, 255);
+   color:#fff;
+transition-duration: 1s;
+
+
+}
+.childd{
+  /* width:calc(33% - 10px); */
+
+background-color: aqua;
+background-size: contain;
+overflow: hidden;
+
+height: 110%;
+border-radius: 20px;
+}
+.sub-child{
+background-color: aqua;
+background-size: contain;
+overflow: hidden;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+}
+
+
+/* Breakpoints */
+@media (min-width:500px){
+  .child{
+    width:calc(25% );
+    width: 350px;
+  }
+}
+@media (min-width: 940px){
+ .child{
+   width:calc(20% - 10px);
+   width: 350px;
+ }
+}
+
+
+ /* for popup window */
+ .bg-model{
+  width:100%;
+  height:100%;
+  background-color: rgb(0,0,0,0.7);
+  position: absolute;
+  top:0;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  position: fixed;
+  z-index: 999;
+
+}
+
+.modal-content{
+ width: 90%;
+ height:80%;
+ background-color: rgb(245, 241, 237);
+ border-radius: 10px;
+ align-items: center;
+ padding:20px;
+ position: relative;
+ color: rgb(4, 4, 4);
+ 
+}
+
+
+.close{
+display:flex;
+margin:  0 0 20px auto;
+background-color: transparent;
+font-size: 30px;
+color: #ffffff;
+background: #03549a;
+border-radius: 100%;
+width: 40px;
+height: 40px;
+border: none;
+outline: none;
+cursor: pointer;
+transform:rotate(45deg);
+text-align: center;
+justify-content: center;
+}
+.close:hover{
+  background-color:red;
+}
+#opne{
+  background-color:#0784f0;
+  border-radius: 50px;
+  width: 200px;
+  color: #fff;
+  padding: 4px;
+  text-align: center;
+  justify-content: center;
+} 
+ 
+
+/* class box */
+.Career-skil-lab-work{
+    background-color: rgb(1, 7, 14);
+    padding: 2%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+ 
+ }
+ .work{
+  text-align:center ;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  margin: 50px;
+ }
+ .box{
+  transition: box-shadow .3s;
+  height: 250px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: black;
+  margin:20px;
+  cursor: pointer;
+ 
+ }
+ .box:hover{
+/* offset-x | offset-y | blur-radius | color */
+box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.187); 
+  
+ }
+/* h1{
+  display: inline;
+  width: 10px;
+} */
+ .box-img{
+  background-color: #0784f0;
+  height: 190px;
+ }
+
+ table{
+ height: 150px;
+  width: 300px;
+  border:2px solid #fff ;
+  border-radius: 50px;
+  /* margin-top: 2px;
+  display: inline; */
+ 
+ }
+ td{
+  border: 2px solid #fff;
+  cursor: pointer;
+
+ }
+td:hover{
+  background-color: #07f068;
+ }
+ .week-work{
+  display:none;
+  overflow:scroll;
+}
+.movie-work{
+  flex-wrap: wrap;
+  display:none;
+  text-align: center;
+  justify-content: center;
+  overflow-y: scroll; 
+  
+}
+
+.mh1{
+  display:block;
+
+}
+.mov:hover{
+  background-color: #0784f0;
+} 
+
+.bottom-container{
+  padding-top:30px;
+  bottom: 0;
+  width: 100%;
+  background-color: #11999E;
+  color: rgb(0, 0, 0);  
+  position: relative;
+  min-height: 19vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-link{
+  color:#021f20;   
+}
+.surname{
+  color: #eaf6fe;
+}
+
+
+ 
+
+
+
+
+
+
+
