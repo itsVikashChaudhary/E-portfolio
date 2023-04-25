@@ -77,17 +77,25 @@ span{
   display: flex;
   flex-wrap: wrap;
 
-  /* /* transition-duration: 5s;
+  transition-duration: 5s;
            
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
-  transition: all 1s ease; */
-   */
+  transition: all 1s ease;
+  
 }
 .about-container img{
  width: 300px;
+
+ transition-duration: 5s;
+           
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
  
 }
 .name{
