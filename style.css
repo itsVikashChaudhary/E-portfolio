@@ -18,6 +18,13 @@ a{
   height:fit-content;
   padding-bottom:20px ;
   background-color: rgb(0, 132, 255);
+  background-image: url(images/intro16.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+
+
+  
 }
 nav{
   background-color: rgba(0, 0, 0, 0.916);
