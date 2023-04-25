@@ -28,7 +28,7 @@ nav{
   z-index: 999;
   border-radius: 100px;
   margin:10px;
-  padding: 10px;
+  padding: 15px;
   transition-duration: 5s;
            
 -webkit-transition: all 1s ease;
@@ -39,15 +39,17 @@ transition: all 1s ease;
 }
 
 span{
-  margin:5px;
-  font-size: 100%;
+  margin:10px;
+  font-weight: bold;
+  
 }
 .nav-left{
 
   float:left;
-  width: 130px;
+  width: 140px;
   text-align: center;
-  /* margin-left: 50px; */ 
+  /* margin-left: 50px; */
+
 }
 .nav-contant:hover{
   cursor: pointer;
