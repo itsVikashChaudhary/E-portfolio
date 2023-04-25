@@ -268,8 +268,8 @@ transition-duration: 1s;
   
   display: flex;
   flex-wrap: wrap;
-  padding-left: 5%;
-  padding-right: 5%;
+  /* padding-left: 10px;
+  padding-right: 10px; */
   align-items: center;
   justify-content: center;
   justify-content: center;
@@ -517,7 +517,7 @@ td:hover{
   
 }
 .week-work img{
-  width: 100%;
+  width: 60%;
 }
 ul{
   list-style:disc;
