@@ -445,7 +445,7 @@ box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.187);
   
 }
 .box-img:hover { 
-  transform: scale(1.1); 
+  transform: scale(1.05); 
   transition-duration: 1s;
   /* transition-property: margin-right, color; */
   }
