@@ -59,7 +59,7 @@ span{
 @media screen and (max-width: 450px) {
   
   .nav-left  {
-    display: none;
+   font-size: 10px;
     flex-direction: column;
   }
 }
@@ -76,8 +76,8 @@ span{
 @media screen and (max-width: 450px) {
   
   .nav-right  {
-    display: flex;
-  /
+    font-size: 10px;
+  
    
   }
 }
