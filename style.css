@@ -29,6 +29,7 @@ nav{
   border-radius: 100px;
   margin:10px;
 
+
   transition-duration: 5s;
            
 -webkit-transition: all 1s ease;
@@ -39,7 +40,7 @@ transition: all 1s ease;
 }
 
 span{
-  margin:20px;
+  margin:10px;
   font-size: 100%;
 }
 .nav-left{
@@ -55,11 +56,11 @@ span{
 }
 .nav-right{
   float:right;
-  padding:30px;
+  padding:10px;
   display: flex;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 418px) {
   
   .nav-right  {
     display: flex;
