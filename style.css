@@ -56,6 +56,13 @@ span{
   /* margin-left: 50px; */
 
 }
+@media screen and (max-width: 450px) {
+  
+  .nav-left  {
+    display: none;
+    flex-direction: column;
+  }
+}
 .nav-contant:hover{
   cursor: pointer;
   color: rgb(247, 247, 247);
@@ -66,11 +73,12 @@ span{
   display: flex;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 450px) {
   
   .nav-right  {
     display: flex;
-    flex-direction: column;
+  /
+   
   }
 }
 
