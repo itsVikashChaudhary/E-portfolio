@@ -512,7 +512,12 @@ td:hover{
   text-align: center;
   justify-content: center;
   overflow-y: scroll; 
+
+ 
   
+}
+.week-work img{
+  width: 100%;
 }
 ul{
   list-style:disc;
@@ -545,6 +550,9 @@ text-align: left;
 }
 .footer-link{
   color:#021f20;   
+}
+.footer-link:hover{
+  color: #eaf6fe;
 }
 .surname{
   color: #eaf6fe;
