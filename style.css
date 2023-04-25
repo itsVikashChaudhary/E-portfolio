@@ -9,7 +9,7 @@ body{
   align-items: center;
   text-align: center;
   justify-content: center;
-  
+
 }
 a{
   text-decoration: none;
@@ -166,7 +166,7 @@ justify-content: center;
   width: 200px;
   margin-bottom: 50px;
   margin-top: 50px;
-
+ 
   
   clip-path: 
   polygon(
@@ -192,12 +192,14 @@ justify-content: center;
 
 .thumbnaill { 
 cursor: pointer;
+
  
 } 
 .thumbnail img{
   display: flex;
   width: 100%;
   height:100%;
+ 
             cursor: pointer;
             color: white;
             text-align: center;
@@ -212,15 +214,11 @@ cursor: pointer;
   
 }
 
-/*change the number below to scale to the appropriate size*/
-/* .thumbnail:hover { 
-transform: scale(1.1); 
-transition-duration: 1s;
-  transition-property: margin-right, color; 
-} */
+
 .thumbnaill:hover { 
 transform: scale(1.1); 
 transition-duration: 1s;
+
 /* transition-property: margin-right, color; */
 }
 
@@ -415,6 +413,7 @@ justify-content: center;
  .box:hover{
 /* offset-x | offset-y | blur-radius | color */
 box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.187); 
+
   
  }
 /* h1{
@@ -424,7 +423,33 @@ box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.187);
  .box-img{
   background-color: #0784f0;
   height: 190px;
+  border-radius: 20px; 
  }
+
+ .box-img img{
+  display: flex;
+  width: 100%;
+  height:100%;
+  border-radius: 20px;
+            cursor: pointer;
+            color: white;
+            text-align: center;
+            transition-duration: 4s;
+           
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            transition: all 1s ease;
+
+  
+}
+.box-img:hover { 
+  transform: scale(1.1); 
+  transition-duration: 1s;
+  /* transition-property: margin-right, color; */
+  }
+
 
  table{
  height: 150px;
@@ -476,7 +501,6 @@ text-align: left;
   width: 100%;
   background-color: #11999E;
   color: rgb(0, 0, 0);  
- 
   min-height: 19vh;
   justify-content: center;
   align-items: center;
