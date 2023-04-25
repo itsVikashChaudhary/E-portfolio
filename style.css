@@ -40,7 +40,7 @@ transition: all 1s ease;
 }
 
 span{
-  margin:10px;
+  margin:5px;
   font-size: 100%;
 }
 .nav-left{
@@ -60,7 +60,7 @@ span{
   display: flex;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 418px) {
+@media screen and (max-width: 400px) {
   
   .nav-right  {
     display: flex;
