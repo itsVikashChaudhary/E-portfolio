@@ -291,7 +291,6 @@ transition-duration: 1s;
 background-color: aqua;
 background-size: contain;
 overflow: hidden;
-
 height: 110%;
 border-radius: 20px;
 }
@@ -318,7 +317,6 @@ border-radius: 20px;
    width: 350px;
  }
 }
-
 
  /* for popup window */
  .bg-model{
@@ -347,9 +345,12 @@ border-radius: 20px;
  
 }
 
-
+/* .model-content-box{
+  margin-top: 0%;
+} */
 .close{
 display:flex;
+flex-wrap: wrap;
 margin:  0 0 20px auto;
 background-color: transparent;
 font-size: 30px;
@@ -388,6 +389,7 @@ justify-content: center;
   justify-content: center;
  
  }
+
  .work{
   text-align:center ;
   align-items: center;
@@ -399,6 +401,7 @@ justify-content: center;
   padding: 2%;
   margin: 50px;
  }
+
  .box{
   transition: box-shadow .3s;
   height: 250px;
@@ -435,28 +438,34 @@ box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.187);
  td{
   border: 2px solid #fff;
   cursor: pointer;
-
  }
 td:hover{
   background-color: #07f068;
  }
- .week-work{
-  display:none;
-  overflow:scroll;
-}
-.movie-work{
-  flex-wrap: wrap;
-  display:none;
+
+.movie-work , .week-work{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+ display: none;
   text-align: center;
   justify-content: center;
   overflow-y: scroll; 
   
 }
-
-.mh1{
-  display:block;
-
+ul{
+  list-style:disc;
+  float: left;
+  text-align: left;
+  font-weight: bold;
+ 
 }
+li{ 
+text-align: left;
+}
+
+
+
 .mov:hover{
   background-color: #0784f0;
 } 
@@ -467,11 +476,12 @@ td:hover{
   width: 100%;
   background-color: #11999E;
   color: rgb(0, 0, 0);  
-  position: relative;
+ 
   min-height: 19vh;
   justify-content: center;
   align-items: center;
   text-align: center;
+ 
 }
 .footer-link{
   color:#021f20;   
