@@ -71,6 +71,8 @@ span{
 .nav-right{
   float:right;
   padding:5px;
+  margin-top:18px;
+  margin-right:20px;
   display: flex;
   flex-wrap: wrap;
   color: #068bff;
@@ -381,13 +383,14 @@ border-radius: 20px;
 
 .modal-content{
  width: 90%;
- height:80%;
+ height:85%;
  background-color: rgb(245, 241, 237);
  border-radius: 10px;
  align-items: center;
  padding:20px;
  position: relative;
  color: rgb(4, 4, 4);
+ 
  
 }
 
@@ -499,7 +502,9 @@ box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.187);
   /* transition-property: margin-right, color; */
   }
 
-
+.video-frame{
+  overflow-y:scroll;
+}
  table{
  height: 150px;
   width: 300px;
