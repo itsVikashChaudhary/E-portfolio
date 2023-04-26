@@ -320,10 +320,11 @@ transition-duration: 1s;
   border:solid #fff;
   border-radius: 30px;
   padding:10px;
-  margin: 5%;
+  margin: 3%;
   color:#fff;
   transition: 1s;
   cursor: pointer;
+  
  
 }
 .child h3:hover{
