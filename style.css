@@ -505,7 +505,9 @@ box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.187);
 
 .video-frame{
   overflow-y:scroll;
+ 
 }
+
  table{
  height: 150px;
   width: 300px;
