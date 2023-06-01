@@ -41,36 +41,36 @@ document.getElementById("close3").addEventListener("click",function(){
 });
 
 
-document.querySelector(".pro4").addEventListener("click",function(){
-    document.querySelector(".bg-model4").style.display="flex";
-});
-document.getElementById("img4").addEventListener("click",function(){
-    document.querySelector(".bg-model4").style.display="flex";
-});
-document.getElementById("close4").addEventListener("click",function(){
-    document.querySelector(".bg-model4").style.display="none";
-});
+// document.querySelector(".pro4").addEventListener("click",function(){
+//     document.querySelector(".bg-model4").style.display="flex";
+// });
+// document.getElementById("img4").addEventListener("click",function(){
+//     document.querySelector(".bg-model4").style.display="flex";
+// });
+// document.getElementById("close4").addEventListener("click",function(){
+//     document.querySelector(".bg-model4").style.display="none";
+// });
 
 
-document.querySelector(".pro5").addEventListener("click",function(){
-    document.querySelector(".bg-model5").style.display="flex";
-});
-document.getElementById("img5").addEventListener("click",function(){
-    document.querySelector(".bg-model5").style.display="flex";
-});
-document.getElementById("close5").addEventListener("click",function(){
-    document.querySelector(".bg-model5").style.display="none";
-});
+// document.querySelector(".pro5").addEventListener("click",function(){
+//     document.querySelector(".bg-model5").style.display="flex";
+// });
+// document.getElementById("img5").addEventListener("click",function(){
+//     document.querySelector(".bg-model5").style.display="flex";
+// });
+// document.getElementById("close5").addEventListener("click",function(){
+//     document.querySelector(".bg-model5").style.display="none";
+// });
 
-document.querySelector(".pro6").addEventListener("click",function(){
-    document.querySelector(".bg-model6").style.display="flex";
-});
-document.getElementById("img6").addEventListener("click",function(){
-    document.querySelector(".bg-model6").style.display="flex";
-});
-document.getElementById("close6").addEventListener("click",function(){
-    document.querySelector(".bg-model6").style.display="none";
-});
+// document.querySelector(".pro6").addEventListener("click",function(){
+//     document.querySelector(".bg-model6").style.display="flex";
+// });
+// document.getElementById("img6").addEventListener("click",function(){
+//     document.querySelector(".bg-model6").style.display="flex";
+// });
+// document.getElementById("close6").addEventListener("click",function(){
+//     document.querySelector(".bg-model6").style.display="none";
+// });
 
 // class work
 document.querySelector(".videos").addEventListener("click",function(){
@@ -117,33 +117,33 @@ document.querySelector(".week3").addEventListener("click",function(){
   document.querySelector(".week6-work").style.display="none";
 });
 
-document.querySelector(".week4").addEventListener("click",function(){
-  document.querySelector(".week4-work").style.display="flex";
+// document.querySelector(".week4").addEventListener("click",function(){
+//   document.querySelector(".week4-work").style.display="flex";
 
-  document.querySelector(".week1-work").style.display="none";
-  document.querySelector(".week2-work").style.display="none";
-  document.querySelector(".week3-work").style.display="none";
-  document.querySelector(".week5-work").style.display="none";
-  document.querySelector(".week6-work").style.display="none";
-});
-document.querySelector(".week5").addEventListener("click",function(){
-  document.querySelector(".week5-work").style.display="flex";
+//   document.querySelector(".week1-work").style.display="none";
+//   document.querySelector(".week2-work").style.display="none";
+//   document.querySelector(".week3-work").style.display="none";
+//   document.querySelector(".week5-work").style.display="none";
+//   document.querySelector(".week6-work").style.display="none";
+// });
+// document.querySelector(".week5").addEventListener("click",function(){
+//   document.querySelector(".week5-work").style.display="flex";
 
-  document.querySelector(".week1-work").style.display="none";
-  document.querySelector(".week2-work").style.display="none";
-  document.querySelector(".week3-work").style.display="none";
-  document.querySelector(".week4-work").style.display="none";
-  document.querySelector(".week6-work").style.display="none";
-});
-document.querySelector(".week6").addEventListener("click",function(){
-  document.querySelector(".week6-work").style.display="flex";
+//   document.querySelector(".week1-work").style.display="none";
+//   document.querySelector(".week2-work").style.display="none";
+//   document.querySelector(".week3-work").style.display="none";
+//   document.querySelector(".week4-work").style.display="none";
+//   document.querySelector(".week6-work").style.display="none";
+// });
+// document.querySelector(".week6").addEventListener("click",function(){
+//   document.querySelector(".week6-work").style.display="flex";
 
-  document.querySelector(".week1-work").style.display="none";
-  document.querySelector(".week2-work").style.display="none";
-  document.querySelector(".week3-work").style.display="none";
-  document.querySelector(".week4-work").style.display="none";
-  document.querySelector(".week5-work").style.display="none";
-});
+//   document.querySelector(".week1-work").style.display="none";
+//   document.querySelector(".week2-work").style.display="none";
+//   document.querySelector(".week3-work").style.display="none";
+//   document.querySelector(".week4-work").style.display="none";
+//   document.querySelector(".week5-work").style.display="none";
+// });
 // document.querySelector(".week2").addEventListener("click",function(){
 //   document.querySelector(".week-work").style.display="none";
 // });
@@ -165,32 +165,32 @@ document.querySelector(".movie1").addEventListener("click",function(){
    
   });
 
-document.querySelector(".movie2").addEventListener("click",function(){
-    document.querySelector(".movie2-work").style.display="flex";
+// document.querySelector(".movie2").addEventListener("click",function(){
+//     document.querySelector(".movie2-work").style.display="flex";
   
-    document.querySelector(".movie1-work").style.display="none";
-    document.querySelector(".movie3-work").style.display="none";
-    document.querySelector(".movie4-work").style.display="none";
+//     document.querySelector(".movie1-work").style.display="none";
+//     document.querySelector(".movie3-work").style.display="none";
+//     document.querySelector(".movie4-work").style.display="none";
    
-  });
+//   });
 
-document.querySelector(".movie3").addEventListener("click",function(){
-    document.querySelector(".movie3-work").style.display="flex";
+// document.querySelector(".movie3").addEventListener("click",function(){
+//     document.querySelector(".movie3-work").style.display="flex";
   
-    document.querySelector(".movie1-work").style.display="none";
-    document.querySelector(".movie2-work").style.display="none";
-    document.querySelector(".movie4-work").style.display="none";
+//     document.querySelector(".movie1-work").style.display="none";
+//     document.querySelector(".movie2-work").style.display="none";
+//     document.querySelector(".movie4-work").style.display="none";
    
-  });
+//   });
 
-document.querySelector(".movie4").addEventListener("click",function(){
-    document.querySelector(".movie4-work").style.display="flex";
+// document.querySelector(".movie4").addEventListener("click",function(){
+//     document.querySelector(".movie4-work").style.display="flex";
   
-    document.querySelector(".movie1-work").style.display="none";
-    document.querySelector(".movie2-work").style.display="none";
-    document.querySelector(".movie3-work").style.display="none";
+//     document.querySelector(".movie1-work").style.display="none";
+//     document.querySelector(".movie2-work").style.display="none";
+//     document.querySelector(".movie3-work").style.display="none";
    
-  });
+//   });
 
 
 
