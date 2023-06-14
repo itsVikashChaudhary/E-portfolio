@@ -55,11 +55,13 @@ span{
   text-align: center;
   /* margin-left: 50px; */
   color: #fff;
+  flex: auto;
 
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 450px) {
   
   .nav-left  {
+    width: 90px;
    font-size: 10px;
     flex-direction: column;
   }
